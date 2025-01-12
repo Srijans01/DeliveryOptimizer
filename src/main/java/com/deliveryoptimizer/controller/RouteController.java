@@ -13,7 +13,7 @@ import static main.java.com.deliveryoptimizer.service.ValidationUtils.*;
 public class RouteController {
     public void run() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter Aman’s location (latitude and longitude):");
+        System.out.println("Enter Aman’s location (latitude and longitude) (Example - 12.971598 77.594566) : ");
 
         double amanLat = validateLatitude(scanner);
         double amanLon = validateLongitude(scanner);
